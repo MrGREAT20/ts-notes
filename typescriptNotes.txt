@@ -1,0 +1,34 @@
+Why Typescript ?
+
+->Typescript is a superset of JS, which means a .ts file can have javascript code in it
+->It gives you static typing (just like in cpp, int x = 10; x = "hello" will give error. Typescript will give error as well but JS wont)
+->Makes your code more strict
+
+
+
+Typescript does not run the code
+
+We know how Js runs the code, it goes line by line and registers each function and only goes inside the functions if called
+Typescripts only job is to compile the .ts code and make sure there is no indentation, syntax issue, no type issues and converts the .ts code to .js code
+
+Typescript throws COMPILATION ERRORS and javascript throws RUNTIME ERRORS
+
+
+Interfaces : 
+
+-> Interfaces lets you accumulate data of a specific type
+-> Interfaces can use other Interfaces
+-> Interfaces can extend other Interfaces
+-> Interfaces can be implemented by classes
+
+
+Types : 
+
+-> very slightly different from Interfaces
+-> Need to be equated
+-> Very useful for unions and ors
+-> Can not be extended
+-> types cant be implemented by classes
+-> types can use other interfaces or types but cant extend other interfaces or types
+-> types can do unions and intersections like type Shape = Circle | Square | Rectangle | Pentagon or  type Shape = Circle & Square & Rectangle (means saare interfaces ke unique fields ka cummulation)
+
